@@ -1,0 +1,105 @@
+﻿body{
+    color: whitesmoke;
+    background-image: url("Earphone.jpg");
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: times, Times New Roman, times-roman, georgia, serif;    
+    margin: 0;
+    padding: 0px 0px 30px 0px;
+    font-size: 51px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;    
+}
+
+.nameOfGame{
+    margin-left:250px;  
+    margin-top:100px;
+}
+
+.hiddenAtFirst
+{
+    display:none;
+}
+
+.albumName {
+    display: block;
+    padding: 35px;
+    border: solid 2px #666;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 127px;
+    height: 100px;
+    width: 530px;
+}
+
+.answerType
+{
+    float:left;
+    margin-top: 15px;
+    font-size:15px;
+}
+
+.numberCircle {
+    border-radius: 10px;
+    margin-left: 0px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #666;
+    border: 2px solid #666;
+    color: whitesmoke;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+
+#textBoxArea {
+    float: right;
+    width: 470px;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.title{
+    font-size:15px;
+    font-weight:bold;
+}
+
+.input-group-btn {
+    padding-top:42px;
+}
+
+.albumArt {
+    height: 100px;
+    position: relative;
+    top: -78px;
+    padding-left: 515px;
+    float:left;
+}
+
+.questionNum {
+    top: 25px;
+    position: relative;
+}
+
+#score {
+    width: 350px;   
+    left: 550px;
+    position: relative;
+}
+
+.points{
+    font-size:25px;
+}
+
+.fullNameComment{
+    font-size: 15px; margin-left: 10px;
+}
+
+#lastAlbum{
+    height:100px;
+    width:100px;
+}
